@@ -16,7 +16,7 @@
     height: 250px;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center; 
 }
 
 .infos {
@@ -30,7 +30,7 @@
 
 }
 
-.active {
+.info-active {
     display: flex;
 }
 
@@ -100,14 +100,14 @@
 }
 
 #point1 {
-    transform: scale(1.1);
-    opacity: 1;
+    opacity: 0.4;
     cursor: pointer;
 }
 
 #point2 {
-    opacity: 0.4;
+    opacity: 1;
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 #point3 {
