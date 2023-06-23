@@ -68,13 +68,13 @@
 #bouton1:hover {
     transform: rotate(0deg) scale(1.1);
     opacity: 1;
-    transition: all 0.3 ease;
+    transition: all 0.3s ease;
 }
 
 #bouton2:hover {
     transform: rotate(180deg) scale(1.1);
     opacity: 1;
-    transition: all 0.3 ease;
+    transition: all 0.3s ease;
 }
 
 .point {
@@ -90,6 +90,7 @@
 
 .point:hover {
     transform: scale(1.1);
+    transition: all 0.1s ease;
 }
 
 .points {
@@ -99,6 +100,7 @@
 }
 
 #point1 {
+    transform: scale(1.1);
     opacity: 1;
     cursor: pointer;
 }
