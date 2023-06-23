@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+    
+    <head>
+        <title>Portfolio - Thomas BAUDRILLART</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./lignes.css">
+        <link rel="stylesheet" href="./infos.css">
+        <link rel="stylesheet" href="./medias.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Great+Vibes&display=swap" rel="stylesheet">    
+        <script src="./index-load.js" async></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+        <script src="./carrousel.js" async></script>
+    </head>
+    
+    <body>
+        <header>
+            <div class="lignes-header">
+                <div class="l1"></div>
+                <div class="l2"></div>
+            </div>
+        </header>
+        
+        <main>  
+             <div><h1><span>Bienvenue </span><span>sur </span><span>mon </span><span>portfolio</span></h1></div>
+                 
+                    <div class="carrousel">
+                        <div id="btn1"><img src="./images/fleche.png" alt="Précédent" class="boutons" id="bouton1"></div>
+                            
+                        <div class="container-infos">
+                            <div class="infos active" id="info1">
+                                <h2>Mes motivations</h2>
+                                    <p>Ancien cuisinier, je suis actuellement en pleine reconversion professionnelle et n'ayant 
+                                        aucun diplôme, j'ai créé ce portfolio afin de me mettre en avant, mais aussi de montrer 
+                                        les compétences que j'ai acquises. En effet, ceux-ci sont rudimentaires, mais je suis motivé 
+                                        et très enthousiaste lorsqu'il s'agit d'apprendre de plus mon ancienne expérience m'apporte 
+                                        de nombreuses qualités pour ce domaine tel que le travail d'équipe, mais aussi l'autonomie 
+                                        et la gestion du stress. </p>
+                            </div> 
+                            <div class="infos" id="info2">
+                                <h2>Mes compétences</h2>
+                                    <p>Motivé, curieux et créatif, j’ai travaillé plus de dix ans dans le domaine de la restauration
+                                        qui je pense peut-être un atout (travail d'équipe, gestion du stress, organisation,
+                                        communication, soucis du détail) . Je veux aujourd’hui me reconvertir et je sais au vu de
+                                        mes compétences (HTML 5, CSS, JavaScript, GSAP), mais aussi au vu de celles à venir
+                                        (SEO, React.js) que je saurais m'adapter à ce changement professionnel.</p>
+                            </div> 
+                            <div class="infos" id="info3">
+                                <h2>Me contacter</h2>
+                                    <p>Vous pouvez me contactersur ma page Linkdin ou GitHub en bas a guache de la page ou bien par mail:<p>
+                                        <h3>baudrillart.pro@gmail.com</h3>
+                            </div> 
+                        </div>
+                            
+                            <div id="btn2"><img src="./images/fleche.png" alt="Suivant" class="boutons" id="bouton2"></div>
+                    </div>
+
+                        <div class="points">
+                            <div class="point" id="point1"></div>
+                            <div class="point" id="point2"></div>
+                            <div class="point" id="point3"></div>
+                        </div>
+                </div>              
+        </main>
+        
+        <footer>
+            <div class="medias">
+                <a target="_blank" href="https://www.linkedin.com/in/thomas-baudrillart-966a0a279/">
+                    <li class="bulle"><img src="./images/linkedin.png" alt="logo-linkdin" class="logo-medias"></li></a>
+                <a target="_blank" href="https://github.com/thbaud">
+                    <li class="bulle"><img src="./images/github.png" alt="logo-github" class="logo-medias"></li></a>
+            </div>
+            <div class="lignes-footer">
+                <div class="l3"></div>
+                <div class="l4"></div>
+            </div>
+        </footer>
+        
+    </body>
+
+</html>

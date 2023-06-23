@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.carrousel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.container-infos {
+    width: 700px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.infos {
+    display: none;
+    width: 500px;
+    height: 250px;
+    flex-direction: column;
+    background: transparent;
+    border-top: 2px solid #f1f1f1;
+    border-bottom: 2px solid #f1f1f1; 
+
+}
+
+.active {
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+.infos h2 {
+    text-align: center;
+    width: 500px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.boutons {
+    width: 70px;
+    cursor: pointer;
+    position: relative;
+}
+
+#bouton1 {
+    opacity: 0.4;
+    transform: rotate(0deg);
+    transition: all 0.3s ease;
+}
+
+#bouton2 {
+    opacity: 0.4;
+    transform: rotate(180deg);
+    transition: all 0.3s ease;
+}
+
+#bouton1:hover {
+    transform: rotate(0deg) scale(1.1);
+    opacity: 1;
+    transition: all 0.3 ease;
+}
+
+#bouton2:hover {
+    transform: rotate(180deg) scale(1.1);
+    opacity: 1;
+    transition: all 0.3 ease;
+}
+
+.point {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: #f1f1f1;
+    margin: 2px;
+    position: relative;
+}
+
+
+
+.point:hover {
+    transform: scale(1.1);
+}
+
+.points {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+#point1 {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#point2 {
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+#point3 {
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 420px) {
+
+    .infos {
+        width: 300px;
+        height: 265px;
+    }
+
+    .infos h2 {
+        width: 300px;
+        height: 60px;
+    }
+
+    .carrousel {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .boutons {
+        width: 30px;
+        position: absolute;
+        margin-top: 15px;
+    }
+
+    #bouton1 {
+        left: 60px;
+    }
+
+    #bouton2 {
+        right: 60px;
+    }
+
+    .container-infos {
+        order: -1;
+    }
+
+}
