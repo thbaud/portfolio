@@ -5,6 +5,12 @@ let l2 = document.querySelector('.l2');
 let l3 = document.querySelector('.l3');
 let l4 = document.querySelector('.l4');
 let containerInfos = document.querySelector('.container-infos');
+let btns = document.querySelector('.boutons');
+let btn1 = document.querySelector('#bouton1');
+let btn2 = document.querySelector('#bouton2');
+let pt1 = document.querySelector('#point1');
+let pt2 = document.querySelector('#point2');
+let pt3 = document.querySelector('#point3');
 
  
 
