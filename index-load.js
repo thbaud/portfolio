@@ -5,6 +5,7 @@ let l2 = document.querySelector('.l2');
 let l3 = document.querySelector('.l3');
 let l4 = document.querySelector('.l4');
 let containerInfos = document.querySelector('.container-infos');
+let infos = document.querySelectorAll('infos');
 let btns = document.querySelector('.boutons');
 let btn1 = document.querySelector('#bouton1');
 let btn2 = document.querySelector('#bouton2');
