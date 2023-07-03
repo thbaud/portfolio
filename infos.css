@@ -141,6 +141,8 @@
         width: 30px;
         position: absolute;
         margin-top: 15px;
+        margin-left: 25px;
+        margin-right: 25px;
     }
 
     #bouton1 {
