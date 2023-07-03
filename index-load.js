@@ -25,10 +25,10 @@ window.addEventListener('load', () => {
         .from(l4, 2, {width: 0, ease: "power2.out"}, '')
         .from(l2, 2.5, {width: 0, ease: "power2.out"}, '')
         .from(l3, 2.5, {width: 0, ease: "power2.out"}, '')
-        .staggerFrom(titreSpans, 0.6, {top: -100, opacity: 0, ease: "power2.out"}, 0.3,"0.5")
+        .staggerFrom(titreSpans, 0.5, {top: -100, opacity: 0, ease: "power2.out"}, 0.3,"0.5")
         .staggerFrom(containerInfos, 3, {opacity: 0, ease: "power2.out"},-0.3,"-=1.5")
-        .staggerFrom(btn1, 1, {left: -800, ease: "power2.out"}, -0.2,"-=3.5")
-        .staggerFrom(btn2, 1, {right: -800, ease: "power2.out"}, -0.2, "-=3.5")
+        .staggerFrom(btn1, 0.8, {left: -600, ease: "power1.in"}, -0.2,"-=3.5")
+        .staggerFrom(btn2, 0.8, {right: -600, ease: "power1.in"}, -0.2, "-=3.5")
         .staggerFrom(pt1, 1, {bottom: -100, opacity: 0, ease: "power2.out"}, -0.2, "-=3.5")
         .staggerFrom(pt2, 1, {bottom: -100, opacity: 0, ease: "power2.out"}, -0.2, "-=3.25")
         .staggerFrom(pt3, 1, {bottom: -100, opacity: 0, ease: "power2.out"}, -0.2, "-=3");

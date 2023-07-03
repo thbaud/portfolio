@@ -12,11 +12,15 @@
 
 
 .container-infos {
-    width: 700px;
+    width: 500px;
     height: 250px;
+    margin-left: 100px;
+    margin-right: 100px;
     display: flex;
     align-items: center;
     justify-content: center; 
+    border-top: 2px solid #f1f1f1;
+    border-bottom: 2px solid #f1f1f1; 
 }
 
 .infos {
@@ -24,8 +28,7 @@
     width: 500px;
     height: 250px;
     flex-direction: column;
-    border-top: 2px solid #f1f1f1;
-    border-bottom: 2px solid #f1f1f1; 
+
 }
 
 .info-active {
@@ -39,10 +42,14 @@
 .infos h2 {
     text-align: center;
     width: 500px;
-    height: 60px;
+    height: 90px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;  
+}
+
+#info3 p {
+    margin-top: 20px;
 }
 
 .boutons {
@@ -88,7 +95,7 @@
 
 .point:hover {
     transform: scale(1.1);
-    transition: all 0.1s ease;
+    transition: all 0.5s ease;
 }
 
 .points {
@@ -115,7 +122,7 @@
 
 @media screen and (max-width: 420px) {
 
-    .infos {
+    .container-infos {
         width: 300px;
         height: 265px;
     }
